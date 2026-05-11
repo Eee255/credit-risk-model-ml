@@ -141,53 +141,12 @@ P(default) = 0.85  →  Score = 390  →  POOR        → Reject
 
 The Streamlit app allows credit officers to input borrower details and get an instant credit score.
 
-**To run locally:**
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/credit-risk-model-lauki-finance.git
-cd credit-risk-model-lauki-finance
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Launch the app
-streamlit run app.py
-```
-
-**App inputs:**
-- Age, Income, Employment Status
-- Loan Amount, Tenure, Purpose
-- Credit Utilization Ratio
-- Delinquency history
-
-**App output:**
-- Probability of Default
-- Credit Score (300–900)
-- Risk Category (Poor / Average / Good / Excellent)
-
----
-## 🛠️ Tech Stack
-
-| Tool | Purpose |
-|------|---------|
-| **Python 3.10+** | Core language |
-| **Pandas / NumPy** | Data manipulation |
-| **Scikit-learn** | Logistic Regression, preprocessing, metrics |
-| **XGBoost** | Gradient boosting model (challenger) |
-| **Imbalanced-learn** | SMOTE-Tomek for class imbalance |
-| **Optuna** | Bayesian hyperparameter optimisation |
-| **Matplotlib / Seaborn** | EDA visualisations |
-| **Streamlit** | Web application deployment |
-| **Joblib** | Model serialisation |
-
----
 
 ## 📦 Installation
 
 ```bash
 # Clone
-git clone https://github.com/yourusername/credit-risk-model-lauki-finance.git
+git clone https://github.com/Eee255/credit-risk-model-ml.git
 cd credit-risk-model-lauki-finance
 
 # Create virtual environment
